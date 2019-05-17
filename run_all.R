@@ -3,7 +3,13 @@
 
 tryCatch({
 
+dir.create("tables")
+dir.create("fig")
+dir.create("obj")
+
 setwd("analysis/")
+
+dir.create("log")
 
 source("1_readData.R")
 
